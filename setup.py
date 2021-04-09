@@ -8,7 +8,7 @@ setup(
     author="Zach Jensen",
     author_email="zjensen@mit.edu",
     license="MIT",
-    install_requires=install_requires=[
+    install_requires=[
         "numpy          == 1.16.5",
         "h5py           == 2.9.0",
         "tensorflow-gpu == 2.0.0",
@@ -19,7 +19,7 @@ setup(
         "ipython",
         "matplotlib     == 3.1.1",
         "pandas         == 0.25.1",
-	"molsets        == 0.2"
+	    "molsets        == 0.2"
     ],
     zip_safe=False,
 )

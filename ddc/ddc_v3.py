@@ -823,7 +823,7 @@ class DDC:
             print(zip_ref)
 
             # Load metadata
-            metadata = pickle.load(open(dirpath + "/metadata.pickle", "rb"))
+            metadata = pickle.load(open(model_name + "/metadata.pickle", "rb"))
 
             # Re-load metadata
             self.__dict__.update(metadata)

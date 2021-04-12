@@ -1,6 +1,6 @@
 # OSDA_Generator
 
-#Installation Instructions
+# Installation Instructions
 - Clone this repository and navigate to it. 
 - Create the conda enivornment. `conda env create -f env/environment.yml`
 - Switch to the new environment. `conda activate osda_env`

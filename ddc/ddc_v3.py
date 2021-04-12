@@ -773,6 +773,7 @@ class DDC:
                 layer["inbound_nodes"][0].pop(idx)
 
         # Change the batch_shape of input layer
+        print(self.__dec_input_shape[-1])
         config["layers"][0]["config"]["batch_input_shape"] = (
             batch_input_length,
             1,

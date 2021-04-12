@@ -819,6 +819,8 @@ class DDC:
             # Unzip the directory that contains the saved model(s)
             with zipfile.ZipFile(model_name + ".zip", "r") as zip_ref:
                 zip_ref.extractall(dirpath)
+            print(dirpath)
+            print(zip_ref)
 
             # Load metadata
             metadata = pickle.load(open(dirpath + "/metadata.pickle", "rb"))

@@ -818,7 +818,7 @@ class DDC:
 
             # Unzip the directory that contains the saved model(s)
             with zipfile.ZipFile(model_name + ".zip", "r") as zip_ref:
-                zip_ref.extractall(dirpath)
+                zip_ref.extractall(model_name)
             print(dirpath)
             print(zip_ref)
 

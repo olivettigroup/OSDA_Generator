@@ -823,10 +823,10 @@ class DDC:
             print(zip_ref)
 
             # Load metadata
-            metadata = pickle.load(open(model_name + "/metadata.pickle", "rb"))
+            # metadata = pickle.load(open(model_name + "/metadata.pickle", "rb"))
 
             # Re-load metadata
-            self.__dict__.update(metadata)
+            # self.__dict__.update(metadata)
 
             # Load all sub-models
             try:

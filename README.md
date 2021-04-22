@@ -1,5 +1,5 @@
 # OSDA_Generator
-This repository contains the code and data for Discovering Relationships between OSDAs and Zeolites through Data Mining and Generative Neural Networks. It contains a data set mined from the scientific literature of OSDAs used to synthesize zeolite structures in different chemical environments along with the code necessary to train and use models cabable of generating ODSA suggestions for a given zeolite and gel chemistry system. This model uses the Deep-Drug-Coder model (https://github.com/pcko1/Deep-Drug-Coder), which users should explore if they want to change or understand the underlying model structure. Using the models (training or generating OSDAs) requires a GPU, however CPU-only machine will be able to access the data and use the conformer and featurization scripts.
+This repository contains the code and data for Discovering Relationships between OSDAs and Zeolites through Data Mining and Generative Neural Networks (https://pubs.acs.org/doi/abs/10.1021/acscentsci.1c00024). It contains a data set mined from the scientific literature of OSDAs used to synthesize zeolite structures in different chemical environments along with the code necessary to train and use models cabable of generating ODSA suggestions for a given zeolite and gel chemistry system. This model uses the Deep-Drug-Coder model (https://github.com/pcko1/Deep-Drug-Coder), which users should explore if they want to change or understand the underlying model structure. Using the models (training or generating OSDAs) requires a GPU, however CPU-only machine will be able to access the data and use the conformer and featurization scripts.
 # Installation Instructions
 - Clone this repository and navigate to it. 
 - Create the conda enivornment. `conda env create -f env/environment.yml`
@@ -28,4 +28,5 @@ The models folder contains pre-trained models for use in generating new OSDAs, O
 # Issues
 Please report any issues found by opening an issue in this repository. 
 # Cite
-Citation to follow soon. 
+If you use this dataset or code in your work please cite as:
+Jensen, Zach, et al. "Discovering Relationships between OSDAs and Zeolites through Data Mining and Generative Neural Networks." ACS Central Science (2021).
